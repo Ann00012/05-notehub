@@ -1,7 +1,7 @@
 import css from "./App.module.css";
 import { Toaster } from "react-hot-toast";
 import { useState } from "react";
-import { fetchNotes, createNote } from "../services/noteService";
+import { fetchNotes, createNote } from "../../services/noteService";
 import Modal from "../Modal/Modal";
 import NoteForm from "../NoteForm/NoteForm";
 import {
