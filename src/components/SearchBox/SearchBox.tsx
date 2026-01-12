@@ -1,12 +1,12 @@
 import css from "./SearchBox.module.css";
 import { useId } from "react";
 
-interface SearchBarProps {
+interface SearchBoxProps {
   value: string;
   onChange: (query: string) => void;
 }
 
-export default function SearchBox({ value, onChange }: SearchBarProps) {
+export default function SearchBox({ value, onChange }: SearchBoxProps) {
   const inputId = useId();
 
   return (

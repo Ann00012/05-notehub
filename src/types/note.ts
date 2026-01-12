@@ -1,11 +1,8 @@
-export interface NoteProps {
-    id: number,
+export interface Note {
+    id: string,
     title: string,
     content: string,
-    creatAt: string,
+    createdAt: string,
     updatedAt: string,
-    tag: string,
-    message: string,
-    error: string,
-    total_pages:number
+    tag: "Todo" | "Work" | "Personal" | "Meeting" | "Shopping"
 }
